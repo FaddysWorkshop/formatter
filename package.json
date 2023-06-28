@@ -11,6 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "js-tokens": "^8.0.1",
-    "scenarist.dev": "^0.5.0"
+    "scenarist.dev": "^0.5.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  },
+  "bin": {
+    "formatter": "./index.js"
   }
 }
